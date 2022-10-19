@@ -1,0 +1,8 @@
+var sum = 0;
+
+process.arg.map((el, i) =>
+    i > 1 &&
+    (sum += Number(el))
+);
+
+console.log(sum);
